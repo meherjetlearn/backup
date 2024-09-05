@@ -1,0 +1,50 @@
+import turtle
+
+t = turtle.Turtle()
+t.speed(10)
+
+sc = turtle.Screen()
+sc.bgcolor('skyblue')
+
+#base circle
+t.pencolor('black')
+t.fillcolor('yellow')
+
+t.begin_fill()
+for i in range(36):
+    t.forward(16)
+    t.right(10)
+t.end_fill()
+
+t.begin_fill()
+for i in range(36):
+    t.forward(12)
+    t.left(10)
+t.end_fill()
+
+t.penup()
+t.goto(0, 130)
+t.pendown()
+t.begin_fill()
+for i in range(36):
+    t.forward(9)
+    t.left(10)
+t.end_fill()
+
+t.penup()
+t.goto(-20, 200)
+t.pendown()
+t.circle(4)
+t.penup()
+t.goto(20, 200)
+t.pendown()
+t.circle(4)
+t.penup()
+t.goto(-25, 170)
+t.pendown()
+t.right(90)
+for i in range(19):
+    t.forward(5)
+    t.left(10)
+
+t.hideturtle()
