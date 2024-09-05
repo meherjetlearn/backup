@@ -1,0 +1,51 @@
+/* body{
+    text-align: center;
+    cursor: crosshair;
+}
+
+#smileyImg{
+    width: 500px;
+    height: 500px;
+    ;
+}
+
+button {
+    height: 60px;
+    width: 100px;
+    margin-left: 20px;
+    background: rgb(255, 245, 196);
+    border-radius: 20%;
+    border-color: rgb(143, 126, 95);
+    font-family:'Times New Roman', Times, serif
+}
+
+#line{
+    color: red
+}
+
+ */
+ body{
+    text-align: center;
+    cursor: n-resize; /* This will apply the crosshair cursor to the entire body */
+}
+
+
+
+#smileyImg{
+    width: 500px;
+    height: 500px;
+}
+
+button {
+    height: 60px;
+    width: 100px;
+    margin-left: 20px;
+    background: rgb(255, 245, 196);
+    border-radius: 20%;
+    border-color: rgb(143, 126, 95);
+    font-family:'Times New Roman', Times, serif;
+}
+
+#line{
+    color: red;
+}

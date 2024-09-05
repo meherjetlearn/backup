@@ -1,0 +1,23 @@
+.happy{
+ width:50px;height:50px;background-color:blue;margin-left: 50%}
+
+
+body{text-align:center; }
+
+#cheerful{width:50%;height:50%;background-color:yellowgreen;margin-left:25%}
+
+.red1 {background:red; }
+
+* {scroll-behavior:smooth}
+
+.divimg { overflow:hidden; height:350px; }
+
+blue {color:blue}
+
+red{ color:red}
+
+font_arial {font-family:Arial;}
+
+hr{
+  border-width: 10px; height:500px
+}
